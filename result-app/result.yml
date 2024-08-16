@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: result-app
+  labels:
+    name: result-app
+spec:
+  containers:
+  - name: result-app
+    image: siddheshdike/result:1.0.0
+    ports:
+      - containerPort: 4000

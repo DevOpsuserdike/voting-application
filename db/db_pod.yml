@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: db
+  labels:
+    name: db
+spec:
+  containers:
+  - name: db
+    image: siddheshdike/postgres:1.0.0
